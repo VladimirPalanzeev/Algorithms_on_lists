@@ -19,6 +19,7 @@ else:
 for i in range(len(parking)):
     if parking[i] == n:
         park = i
+        break
 
 if park != None:
     print(f"Автомобиль стоит на {park} месте.")
