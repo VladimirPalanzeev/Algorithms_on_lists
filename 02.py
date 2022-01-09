@@ -16,5 +16,15 @@ if park != None:
 else:
     print("Автомобиля на стоянке нет.")
 
+for i in range(len(parking)):
+    if parking[i] == n:
+        park = i
+
+if park != None:
+    print(f"Автомобиль стоит на {park} месте.")
+else:
+    print("Автомобиля на стоянке нет.")
+
+
 
 
